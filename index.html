@@ -1,115 +1,491 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Untuk Elvi 💙</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Untuk Elvi 💙</title>
+
+    <meta name="description"
+          content="Website hadiah spesial untuk Elvi Silitonga">
+
+    <link rel="icon"
+          href="assets/favicon.png">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
 </head>
+
 <body>
 
+<!-- ==========================================
+     OPENING
+========================================== -->
+
 <div id="opening">
-  <div class="opening-content">
-    <div class="flower">💙🌸</div>
-    <h3>Untuk</h3>
-    <h1 id="openingName">Elvi Silitonga</h1>
-    <p>Klik di mana saja untuk memulai</p>
-  </div>
+
+    <div class="opening-content">
+
+        <div class="flower">
+
+            💙🌸
+
+        </div>
+
+        <h3>
+
+            Sebuah hadiah kecil untuk
+
+        </h3>
+
+        <h1 id="openingName">
+
+            Elvi Silitonga
+
+        </h1>
+
+        <p>
+
+            Klik di mana saja untuk memulai
+
+        </p>
+
+    </div>
+
 </div>
+
+<!-- ==========================================
+     LOGIN
+========================================== -->
 
 <section id="loginPage">
-  <div class="login-card">
-    <h2>🔒 Website Khusus</h2>
-    <p>Masukkan password untuk membuka hadiah.</p>
-    <input id="password" type="password" placeholder="Password">
-    <button id="loginBtn">Buka Hadiah</button>
-    <p id="warning"></p>
-  </div>
+
+    <div class="login-card">
+
+        <h2>
+
+            🔒 Website Khusus
+
+        </h2>
+
+        <p>
+
+            Website ini dibuat khusus untuk seseorang.
+
+            Masukkan password untuk membuka hadiah kecil ini.
+
+        </p>
+
+        <input
+
+            type="password"
+
+            id="password"
+
+            placeholder="Masukkan Password"
+
+            autocomplete="off">
+
+        <button id="loginBtn">
+
+            💙 Buka Hadiah
+
+        </button>
+
+        <p id="warning"></p>
+
+    </div>
+
 </section>
 
-<section id="mainPage" style="display:none">
+<!-- ==========================================
+     MAIN PAGE
+========================================== -->
+
+<div id="mainPage">
+
 <header>
-<h1>Untuk <span>Elvi Silitonga</span></h1>
-<p>Dibuat dengan niat, kopi, dan sedikit overthinking. 💙</p>
+
+    <h1>
+
+        Hai,
+
+        <span>
+
+            Elvi Silitonga
+
+        </span>
+
+    </h1>
+
+    <p>
+
+        Terima kasih sudah meluangkan waktu
+
+        membuka website sederhana ini.
+
+        Semoga setelah halaman pertama,
+
+        senyummu juga ikut terbuka.
+
+        😊💙
+
+    </p>
+
 </header>
+<!-- ==========================================
+     MUSIC PLAYER
+========================================== -->
 
 <section class="musicBox">
-<button id="musicBtn">🎵 Putar Musik</button>
-<audio id="music" preload="auto" loop>
-<source src="assets/music.mp3" type="audio/mpeg">
-</audio>
+
+    <h2>🎵 Amazing - Rex Orange County</h2>
+
+    <p>
+        Kalau lagunya belum otomatis berbunyi,
+        tekan tombol di bawah ya. 😊
+    </p>
+
+    <button id="musicBtn">
+
+        ▶ Putar Musik
+
+    </button>
+
+    <audio id="music" loop preload="auto">
+
+        <source src="assets/music.mp3" type="audio/mpeg">
+
+        Browser kamu tidak mendukung audio.
+
+    </audio>
+
 </section>
+
+<!-- ==========================================
+     COUNTDOWN
+========================================== -->
 
 <section class="countdown">
-<h2>Menuju 21 Juli 2027</h2>
-<div class="timer">
-<div><h1 id="days">0</h1><span>Hari</span></div>
-<div><h1 id="hours">0</h1><span>Jam</span></div>
-<div><h1 id="minutes">0</h1><span>Menit</span></div>
-<div><h1 id="seconds">0</h1><span>Detik</span></div>
-</div>
+
+    <h2>
+
+        ⏳ Countdown
+
+    </h2>
+
+    <p>
+
+        Satu tahun dari hari ini...
+
+    </p>
+
+    <div class="timer">
+
+        <div>
+
+            <h1 id="days">0</h1>
+
+            <span>Hari</span>
+
+        </div>
+
+        <div>
+
+            <h1 id="hours">0</h1>
+
+            <span>Jam</span>
+
+        </div>
+
+        <div>
+
+            <h1 id="minutes">0</h1>
+
+            <span>Menit</span>
+
+        </div>
+
+        <div>
+
+            <h1 id="seconds">0</h1>
+
+            <span>Detik</span>
+
+        </div>
+
+    </div>
+
 </section>
+
+<!-- ==========================================
+     GALLERY
+========================================== -->
 
 <section class="gallery">
-<h2>📸 Galeri</h2>
-<div class="slider">
-<button id="prev">❮</button>
-<div class="slider-frame">
-<img src="assets/photo1.jpg" class="slide active">
-<img src="assets/photo2.jpg" class="slide">
-<img src="assets/photo3.jpg" class="slide">
-</div>
-<button id="next">❯</button>
-</div>
-<div class="indicator">
-<span class="dot active"></span>
-<span class="dot"></span>
-<span class="dot"></span>
-</div>
+
+    <h2>
+
+        📸 Sedikit Kenangan
+
+    </h2>
+
+    <p>
+
+        Beberapa foto yang ingin kusimpan di halaman ini.
+
+    </p>
+
+    <div class="slider">
+
+        <button
+            id="prev"
+            class="slideBtn">
+
+            ❮
+
+        </button>
+
+        <div class="slider-frame">
+
+            <img
+                src="assets/photo1.jpg"
+                class="slide active"
+                alt="Foto Elvi 1">
+
+            <img
+                src="assets/photo2.jpg"
+                class="slide"
+                alt="Foto Elvi 2">
+
+            <img
+                src="assets/photo3.jpg"
+                class="slide"
+                alt="Foto Elvi 3">
+
+        </div>
+
+        <button
+            id="next"
+            class="slideBtn">
+
+            ❯
+
+        </button>
+
+    </div>
+
+    <div class="indicator">
+
+        <span class="dot active"></span>
+
+        <span class="dot"></span>
+
+        <span class="dot"></span>
+
+    </div>
+
 </section>
+
+<!-- ==========================================
+     MODAL FOTO
+========================================== -->
 
 <div id="imageModal">
-<span id="closeModal">&times;</span>
-<img id="modalImage">
+
+    <span id="closeModal">
+
+        &times;
+
+    </span>
+
+    <img
+        id="modalImage"
+        src=""
+        alt="Preview Foto">
+
 </div>
+<!-- ==========================================
+     LETTER
+========================================== -->
 
 <section class="letter">
-<h2>💌 Surat</h2>
-<div class="letter-box">
-<div id="typingText"></div>
-</div>
+
+    <h2>💌 Surat Untuk Elvi</h2>
+
+    <div class="letter-box">
+
+        <p id="typingText"></p>
+
+    </div>
+
 </section>
+
+<!-- ==========================================
+     SURPRISE
+========================================== -->
 
 <section class="surprise">
-<h2>🎁 Hadiah Terakhir</h2>
-<button id="surpriseBtn">Klik Kalau Berani</button>
-<div id="secretMessage" style="display:none">
-<h3>Terima kasih, Elvi. 💙</h3>
-<p>Semoga setiap harimu dipenuhi hal-hal baik dan senyum yang tulus.</p>
-</div>
+
+    <h2>🎁 Hadiah Terakhir</h2>
+
+    <p>
+
+        Masih penasaran?
+
+        Coba tekan tombol di bawah ini.
+
+    </p>
+
+    <br>
+
+    <button id="surpriseBtn">
+
+        💙 Buka Kejutan
+
+    </button>
+
+    <div id="secretMessage">
+
+        <h3>
+
+            🌸 Surprise!
+
+        </h3>
+
+        <p>
+
+            Terima kasih sudah membuka website ini sampai akhir.
+
+            Semoga setiap hari kamu dipenuhi kebahagiaan,
+
+            kesehatan, dan orang-orang yang selalu
+
+            membuatmu tersenyum.
+
+            Kalau nanti suatu hari kamu membuka website ini lagi,
+
+            semoga senyummu tetap sama seperti hari ini.
+
+            💙
+
+        </p>
+
+    </div>
+
 </section>
 
-<footer>
-Made with 💙<br>
-Specially for <strong>Elvi Silitonga</strong><br><br>
-Created by Muhammad Riski
-</footer>
+<!-- ==========================================
+     BACK TO TOP
+========================================== -->
 
-<button id="topButton">⬆</button>
+<button id="topButton">
+
+    ⬆
+
+</button>
+
+<!-- ==========================================
+     LOADING
+========================================== -->
 
 <div id="loading">
-<div class="loader">
-<div class="ring"></div>
-<p>Loading...</p>
+
+    <div class="loader">
+
+        <div class="ring"></div>
+
+        <p>
+
+            Menyiapkan hadiah...
+
+        </p>
+
+    </div>
+
 </div>
+<!-- ==========================================
+     FOOTER
+========================================== -->
+
+<footer>
+
+    <h2>
+
+        💙 Untuk Elvi Silitonga 💙
+
+    </h2>
+
+    <br>
+
+    <p>
+
+        Terima kasih sudah menyempatkan waktu
+
+        membuka website kecil ini.
+
+    </p>
+
+    <br>
+
+    <p>
+
+        Semoga setiap langkahmu selalu dipenuhi
+        kebahagiaan, kesehatan, dan hal-hal baik.
+
+    </p>
+
+    <br>
+
+    <p>
+
+        "Kadang hadiah terbaik bukanlah sesuatu
+        yang mahal, tetapi sesuatu yang dibuat
+        dengan waktu, niat, dan ketulusan."
+
+    </p>
+
+    <br>
+
+    <strong>
+
+        Made with 💙 by Muhammad Riski
+
+    </strong>
+
+</footer>
+
+<!-- ==========================================
+     END MAIN PAGE
+========================================== -->
+
 </div>
 
-<canvas id="confetti"></canvas>
+<!-- ==========================================
+     JAVASCRIPT
+========================================== -->
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
