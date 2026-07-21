@@ -1,1 +1,115 @@
-<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Gift Elvi</title><link rel='stylesheet' href='style.css'></head><body><h1>Untuk Elvi Silitonga 💙</h1><p>Silakan gunakan file lengkap dari percakapan ini.</p><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Elvi 💙</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="opening">
+  <div class="opening-content">
+    <div class="flower">💙🌸</div>
+    <h3>Untuk</h3>
+    <h1 id="openingName">Elvi Silitonga</h1>
+    <p>Klik di mana saja untuk memulai</p>
+  </div>
+</div>
+
+<section id="loginPage">
+  <div class="login-card">
+    <h2>🔒 Website Khusus</h2>
+    <p>Masukkan password untuk membuka hadiah.</p>
+    <input id="password" type="password" placeholder="Password">
+    <button id="loginBtn">Buka Hadiah</button>
+    <p id="warning"></p>
+  </div>
+</section>
+
+<section id="mainPage" style="display:none">
+<header>
+<h1>Untuk <span>Elvi Silitonga</span></h1>
+<p>Dibuat dengan niat, kopi, dan sedikit overthinking. 💙</p>
+</header>
+
+<section class="musicBox">
+<button id="musicBtn">🎵 Putar Musik</button>
+<audio id="music" preload="auto" loop>
+<source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+</section>
+
+<section class="countdown">
+<h2>Menuju 21 Juli 2027</h2>
+<div class="timer">
+<div><h1 id="days">0</h1><span>Hari</span></div>
+<div><h1 id="hours">0</h1><span>Jam</span></div>
+<div><h1 id="minutes">0</h1><span>Menit</span></div>
+<div><h1 id="seconds">0</h1><span>Detik</span></div>
+</div>
+</section>
+
+<section class="gallery">
+<h2>📸 Galeri</h2>
+<div class="slider">
+<button id="prev">❮</button>
+<div class="slider-frame">
+<img src="assets/photo1.jpg" class="slide active">
+<img src="assets/photo2.jpg" class="slide">
+<img src="assets/photo3.jpg" class="slide">
+</div>
+<button id="next">❯</button>
+</div>
+<div class="indicator">
+<span class="dot active"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+</section>
+
+<div id="imageModal">
+<span id="closeModal">&times;</span>
+<img id="modalImage">
+</div>
+
+<section class="letter">
+<h2>💌 Surat</h2>
+<div class="letter-box">
+<div id="typingText"></div>
+</div>
+</section>
+
+<section class="surprise">
+<h2>🎁 Hadiah Terakhir</h2>
+<button id="surpriseBtn">Klik Kalau Berani</button>
+<div id="secretMessage" style="display:none">
+<h3>Terima kasih, Elvi. 💙</h3>
+<p>Semoga setiap harimu dipenuhi hal-hal baik dan senyum yang tulus.</p>
+</div>
+</section>
+
+<footer>
+Made with 💙<br>
+Specially for <strong>Elvi Silitonga</strong><br><br>
+Created by Muhammad Riski
+</footer>
+
+<button id="topButton">⬆</button>
+
+<div id="loading">
+<div class="loader">
+<div class="ring"></div>
+<p>Loading...</p>
+</div>
+</div>
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
