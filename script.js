@@ -3,7 +3,7 @@
    Author : Muhammad Riski
 ============================================ */
 
-const PASSWORD = "21-07-2026";
+const PASSWORD = "21072001";
 
 const $ = (id) => document.getElementById(id);
 
@@ -153,6 +153,8 @@ function loginSystem(){
 
 function musicPlayer(){
 
+   console.log(music.src);
+console.log(music.readyState);
     const music = $("music");
     const button = $("musicBtn");
 
