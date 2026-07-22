@@ -151,26 +151,32 @@ function loginSystem(){
    MUSIC PLAYER
 ============================================ */
 
-function musicPlayer(){
+function musicPlayer() {
 
-    const music = $("music");
-    const button = $("musicBtn");
+    const music = document.getElementById("music");
+    const button = document.getElementById("musicBtn");
 
-    if(!music || !button) return;
+    if (!music || !button) return;
 
-    button.addEventListener("click",()=>{
+    button.addEventListener("click", async () => {
 
-        if(music.paused){
+        try {
 
-            music.play();
+            if (music.paused) {
 
-            button.innerHTML="⏸ Pause Musik";
+                await music.play();
+                button.innerHTML = "⏸ Pause Musik";
 
-        }else{
+            } else {
 
-            music.pause();
+                music.pause();
+                button.innerHTML = "▶ Putar Musik";
 
-            button.innerHTML="🎵 Putar Musik";
+            }
+
+        } catch (err) {
+
+            console.error(err);
 
         }
 
