@@ -21,19 +21,6 @@ Berarti password yang kamu masukkan benar.
 
 Aku bangga.
 
-Karena setidaknya hari ini ada satu password
-yang berhasil diingat. 😆
-
-Aku sempat bingung...
-
-Mau bikin website...
-
-atau bikin PowerPoint.
-
-Untung pilih website.
-
-Kalau PowerPoint nanti kamu malah nunggu
-tombol "Next Slide".
 
 😂
 
@@ -81,7 +68,7 @@ membuka hadiah kecil ini.
 
 💙
 
-- Muhammad Riski`;
+- Hope get little kiss `;
 
 /* ============================================
    SAAT WEBSITE DIBUKA
