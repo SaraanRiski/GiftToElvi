@@ -153,8 +153,6 @@ function loginSystem(){
 
 function musicPlayer(){
 
-   console.log(music.src);
-console.log(music.readyState);
     const music = $("music");
     const button = $("musicBtn");
 
